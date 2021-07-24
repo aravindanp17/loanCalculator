@@ -68,52 +68,37 @@ return ( <View style={ {} }>
                                                                                          CALCULATE 
                                                                                          </Text>
                                                                                             </TouchableOpacity>
-                                                                                                {/* <View style={ { borderTopColor: 'red' , borderBottomColor: 'white' , borderWidth: 1 } }>
-                                                                                                    <Text style={ { textAlign: 'center' , fontSize: 18, marginTop: 25, marginBottom: 40 } }> Loan EMI Calculator </Text>
-                                                                                                            <View style={ { flexDirection: 'row' , justifyContent: 'space-between' , marginHorizontal: 15 } }>
-                                                                                                                <View style={ { backgroundColor: 'yellow' , padding: 10, marginVertical: 10, width: '49%' , borderRadius: 5 } }>
-                                                                                                                    < Text style={ { textAlign: 'center' } }> Loan EMI </Text>
-                                                                                                                            <Text style={ { textAlign: 'center' } }> {emi} </Text>
-                                                                                                                                    </View>
-                                                                                                                                        <View style={ { backgroundColor: 'blue' , padding: 10, marginVertical: 10, width: '49%' , borderRadius: 5 } }>
-                                                                                                                                            <Text style={ { textAlign: 'center' } }> Total Intrest Payable </Text>
-                                                                                                                                                    <Text style={ { textAlign: 'center' } }> {tPayable} </Text>
-                                                                                                                                                            </View>
-                                                                                                                                                                </View>
-                                                                                                                                                                    <View style={ { backgroundColor: 'pink' , padding: 10, marginHorizontal: 15, borderRadius: 5 } }>
-                                                                                                                                                                        <Text style={ { textAlign: 'center' } }> Total Payment(Principal + Interest) </Text>
-                                                                                                                                                                                <Text style={ { textAlign: 'center' } }> {iPayable} </Text>
-                                                                                                                                                                                        </View>
-                                                                                                                                                                                            </View> */}
-                                                                                                                                                                                                </View>
-                                                                                                                                                                                                    );
-                                                                                                                                                                                                    };
+                                                            
+ </View>
+ );
+  };
 
-                                                                                                                                                                                                    const styles = StyleSheet.create({
-                                                                                                                                                                                                    loan: {
-                                                                                                                                                                                                    fontSize: 18,
-                                                                                                                                                                                                    textAlign: 'center',
-                                                                                                                                                                                                    marginVertical: 25
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    sectionTitle: {
-                                                                                                                                                                                                    fontSize: 24,
-                                                                                                                                                                                                    fontWeight: '600',
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    input: {
-                                                                                                                                                                                                    height: 40,
-                                                                                                                                                                                                    margin: 12,
-                                                                                                                                                                                                    borderWidth: 1,
-                                                                                                                                                                                                    borderRadius: 5,
-                                                                                                                                                                                                    width: '60%'
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    sectionDescription: {
-                                                                                                                                                                                                    marginTop: 8,
-                                                                                                                                                                                                    fontSize: 18,
-                                                                                                                                                                                                    fontWeight: '400',
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    highlight: {
-                                                                                                                                                                                                    fontWeight: '700',
-                                                                                                                                                                                                    },
-                                                                                                                                                                                                    });
+  const styles = StyleSheet.create({
+  loan: {
+  fontSize: 18,
+ textAlign: 'center',
+  marginVertical: 25
+  },
+  sectionTitle: {
+    fontSize: 24,
+    fontWeight: '600',
+    },
+    input: {
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    borderRadius: 5,
+    width: '60%'
+    },
+    sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+    },
+    highlight: {
+    fontWeight: '700',
+    },
+    });
 
-                                                                                                                                                                                                    export default Calculate;
+    export default Calculate;
+      
